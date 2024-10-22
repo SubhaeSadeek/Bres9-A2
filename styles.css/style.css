@@ -15,6 +15,7 @@
 /* shared design */
 * {
 	font-family: "Inter", serif;
+	color: white;
 }
 body {
 	background-color: #000;
@@ -31,6 +32,8 @@ body {
 	font-weight: 600;
 	line-height: 22px;
 	color: #fff;
+	border: none;
+	cursor: pointer;
 }
 
 /* ------------------------------- */
@@ -64,6 +67,48 @@ body {
 	padding: 8px 20px;
 	border-radius: 46px;
 	font-weight: 600;
-	cursor: pointer;
-	border: none;
+}
+
+/* hero section */
+.hero-container {
+	background-image: linear-gradient(
+		180deg,
+		#111 0%,
+		rgba(119, 119, 119, 0) 100%
+	);
+}
+.banner-hero {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.hero-text-container h1 {
+	width: 70%;
+	font-size: 78px;
+	font-weight: 900;
+	line-height: 120%;
+	margin-bottom: 1.75rem;
+}
+.hero-curve-heading {
+	font-family: "Miama", serif;
+	font-weight: 400;
+}
+.hero-para {
+	width: 80%;
+	color: white;
+	opacity: 50%;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	margin-bottom: 1.75rem;
+}
+#btn-hero1,
+#btn-hero2 {
+	padding: 16px 40px;
+	border-radius: 42px;
+}
+
+#btn-hero2 {
+	background: none;
+	border: 1px solid white;
+	margin-left: 1rem;
 }
