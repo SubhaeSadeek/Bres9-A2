@@ -35,6 +35,9 @@ body {
 	border: none;
 	cursor: pointer;
 }
+p {
+	color: rgba(255, 255, 255, 0.5);
+}
 
 /* ------------------------------- */
 /* navbar design */
@@ -91,7 +94,8 @@ body {
 }
 .hero-curve-heading {
 	font-family: "Miama", serif;
-	font-weight: 400;
+	font-weight: 300;
+	font-size: 120px;
 }
 .hero-para {
 	width: 80%;
@@ -111,4 +115,77 @@ body {
 	background: none;
 	border: 1px solid white;
 	margin-left: 1rem;
+}
+#btn-hero2:hover {
+	background-color: #e6533c;
+}
+#btn-hero2:hover {
+	transition: background-color 1.3s;
+}
+
+/* hero info card and image design */
+.hero-image-container img {
+	position: relative;
+}
+#hero-info-card-1,
+#hero-info-card-2 {
+	width: 198px;
+	height: 98px;
+	border-radius: 12px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(10px);
+	position: absolute;
+}
+#hero-info-card-1 {
+	width: 174px;
+	padding-left: 1.5rem;
+	top: 230px;
+	right: 100px;
+}
+#hero-info-card-1 h1 {
+	font-size: 40px;
+	font-weight: 900;
+	line-height: 40px;
+	letter-spacing: 1px;
+	margin-top: 17px;
+}
+#hero-info-card-1 p {
+	font-size: 13px;
+	opacity: 95%;
+}
+#hero-info-card-2 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+	bottom: 170px;
+	left: -110px;
+}
+.red-circle {
+	background-color: #e6533c;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+#hero-info-card-2 h1 {
+	font-size: 24px;
+	font-weight: 900;
+	line-height: 24px;
+	letter-spacing: 0.3px;
+}
+/* --------------------------- */
+/* change your habit section  */
+.change-habit {
+}
+.change-habit-card-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.change-habit-card img {
+	border-radius: 50%;
+}
+.change-habit-card {
+	text-align: center;
 }
