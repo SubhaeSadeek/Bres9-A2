@@ -662,5 +662,27 @@ th {
 	}
 	.bonus-input-container input {
 		width: 300px;
+		margin-left: 2rem;
+		margin-bottom: 1rem;
+	}
+	.bonus-input button {
+		width: 350px;
+	}
+	/* footer responsive */
+	.footer-section {
+		height: auto;
+	}
+	.footer-container {
+		flex-direction: column;
+	}
+	.foot-1 {
+		width: 100%;
+	}
+	.foot-1 h3 {
+		font-size: 45px;
+	}
+	.foot-2 {
+		flex-direction: column;
+		gap: 0rem;
 	}
 }
