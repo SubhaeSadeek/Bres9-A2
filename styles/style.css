@@ -348,21 +348,113 @@ th {
 	border: none;
 	border-radius: 1.2rem;
 }
-.images-team img {
-	width: 305px;
+#trainer-image-card-1 {
+	background-image: url("../images/trainer1.png");
+	width: 100%;
 	height: 272px;
-	border-radius: 1.2rem;
+	border-radius: 1rem;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#trainer-image-card-2 {
+	background-image: url("../images/trainer2.png");
+	width: 100%;
+	height: 272px;
+	border-radius: 1rem;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#trainer-image-card-3 {
+	background-image: url("../images/trainer3.png");
+	width: 100%;
+	height: 272px;
+	border-radius: 1rem;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#trainer-image-card-4 {
+	background-image: url("../images/trainer4.png");
+	width: 100%;
+	height: 272px;
+	border-radius: 1rem;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#trainer-image-card-5 {
+	background-image: url("../images/trainer5.png");
+	width: 100%;
+	height: 272px;
+	border-radius: 1rem;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#trainer-image-card-6 {
+	background-image: url("../images/trainer6.png");
+	width: 100%;
+	height: 272px;
+	border-radius: 1rem;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.images-team h3,
+.images-team p {
 	position: relative;
+	top: 190px;
+	left: 20px;
 }
 .images-team p {
 	color: rgba(255, 255, 255, 0.7);
 }
-.name-card-trainer {
-	position: relative;
-	bottom: 80px;
-	left: 20px;
-	background-color: rgba(139, 128, 128, 0.144);
-	width: 65%;
-	border: none;
-	border-radius: 0.5rem;
+/* footer section design */
+.footer-section {
+	background-color: rgba(255, 255, 255, 0.1);
+	margin-top: 5.5rem;
+	height: 490px;
+	padding-top: 4.5rem;
+}
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 100px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+.foot-1 {
+	width: 40%;
+}
+.foot-1 h3 {
+	color: #e6533c;
+	font-size: 70px;
+	font-style: italic;
+	font-weight: 800;
+}
+.foot-2 {
+	display: flex;
+	gap: 3rem;
+}
+
+.foot-2 ul {
+	list-style: none;
+}
+.foot-2 a {
+	text-decoration: none;
+	line-height: 40px;
+	font-size: 1.25rem;
+	color: rgba(255, 255, 255, 0.5);
+}
+.foot-2 a:hover {
+	background-color: #e6533c;
+	color: #fff;
+	font-weight: 700;
+	padding: 5px 5px;
+}
+#copyright-footer {
+	margin-top: 2.5rem;
+	text-align: center;
 }
