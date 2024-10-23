@@ -62,6 +62,9 @@ p {
 	justify-content: space-between;
 	align-items: center;
 }
+#hamburger-manu {
+	display: none;
+}
 .navbar-1 h3 {
 	color: #e6533c;
 	font-size: 36px;
@@ -512,4 +515,81 @@ th {
 #copyright-footer {
 	margin-top: 2.5rem;
 	text-align: center;
+}
+
+/* ------------------------------ */
+/* for mobile responsive */
+/* -------------------------- */
+@media screen and (max-width: 576px) {
+	nav li {
+		display: none;
+	}
+	#hamburger-manu {
+		display: contents;
+	}
+	/* hero section */
+	.banner-hero {
+		flex-direction: column;
+	}
+	.hero-text-container h1 {
+		font-size: 2rem;
+		margin-bottom: 1.5rem;
+	}
+	.hero-curve-heading {
+		font-size: 60px;
+	}
+	#hero-info-card-1,
+	#hero-info-card-2 {
+		width: 145px;
+		height: 74px;
+		border-radius: 8px;
+		position: absolute;
+	}
+	#hero-info-card-1 {
+		padding-left: 1.5rem;
+		top: 580px;
+		right: 20px;
+	}
+	#hero-info-card-1 h1 {
+		font-size: 30px;
+		margin-top: 5px;
+	}
+	#hero-info-card-2 {
+		top: 770px;
+		left: 40px;
+	}
+	#btn-hero1,
+	#btn-hero2 {
+		padding: 10px 20px;
+		border-radius: 20px;
+		font-size: 1rem;
+	}
+	#btn-hero2 {
+		margin-left: 0.1rem;
+	}
+	.btn-hero-layout {
+		display: flex;
+	}
+	/* change youir habit */
+	.change-habit-heading {
+		font-size: 2rem;
+	}
+	.change-habit-card-container {
+		flex-direction: column;
+	}
+	/* run extra mile */
+	.extra-mile-section {
+		flex-direction: column;
+		width: 90%;
+	}
+	.run-extra-mile-text {
+		width: 100%;
+	}
+	.run-extra-mile-text h1 {
+		font-size: 30px;
+	}
+	.run-extra-mile-text button {
+		padding: 0.5rem 1rem;
+		border-radius: 1rem;
+	}
 }
