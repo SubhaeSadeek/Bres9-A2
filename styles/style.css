@@ -589,7 +589,78 @@ th {
 		font-size: 30px;
 	}
 	.run-extra-mile-text button {
-		padding: 0.5rem 1rem;
-		border-radius: 1rem;
+		padding: 16px 40px;
+		border-radius: 42px;
+		width: 300px;
+	}
+
+	/* bmi calculator */
+	.BMI-heading-container {
+		margin-top: 0.5rem;
+		margin-bottom: 1.5rem;
+	}
+	.BMI-heading,
+	.BMI-para {
+		width: 100%;
+		margin: 0rem 0rem;
+	}
+	.BMI-heading {
+		font-size: 2rem;
+	}
+	.BMI-chart {
+		flex-direction: column;
+	}
+	.BMI-chart-container {
+		flex-direction: column;
+	}
+	.calculate-BMI-1 {
+		margin-top: 2rem;
+		width: 100%;
+	}
+	.calculate-BMI-2 {
+		margin-top: 0rem;
+		width: 100%;
+		text-align: left;
+	}
+	.input-container {
+		width: 70%;
+		margin: 2rem auto;
+	}
+	.input-container input,
+	.input-container select {
+		width: 172px;
+		height: 48px;
+	}
+	#activity-factor {
+		width: 355px;
+	}
+	.team-section-heading h1 {
+		font-size: 2rem;
+	}
+	.team-section-heading p {
+		width: 100%;
+	}
+	.images-team {
+		grid-template-columns: 1fr;
+		width: 100%;
+	}
+
+	/* bonus section */
+	.bonus-section {
+		width: 90%;
+		flex-direction: column;
+		background-image: linear-gradient(
+				to bottom,
+				rgba(18, 18, 19, 0.52),
+				rgba(3, 3, 3, 0.73)
+			),
+			url(../images/exercise5.jpg);
+		background-size: cover;
+	}
+	.bonus-text {
+		width: 100%;
+	}
+	.bonus-input-container input {
+		width: 300px;
 	}
 }
