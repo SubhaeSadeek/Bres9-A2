@@ -221,6 +221,7 @@ p {
 	margin-bottom: 6.25rem;
 	border: none;
 	border-radius: 1.25rem;
+	box-sizing: border-box;
 }
 .run-extra-mile-text {
 	width: 70%;
@@ -230,10 +231,28 @@ p {
 	border-radius: 2.625rem;
 	margin-top: 1.85rem;
 }
-.run-extra-mile-image {
-	width: 70%;
-}
+
 .run-extra-mile-image img {
 	width: 100%;
+	height: 100%;
 	border-radius: 2.625rem;
+}
+/* ---------------------------------- */
+/* training and exercise section */
+
+/* ----------------------------------- */
+/* BMI calculator */
+.BMI-heading-container {
+	margin-top: 5.5rem;
+	margin-bottom: 5.5rem;
+}
+.BMI-heading,
+.BMI-para {
+	width: 50%;
+	margin: 0rem auto;
+}
+
+.BMI-chart {
+	height: 600px;
+	background-color: #222;
 }
